@@ -58,7 +58,7 @@ if __name__ == "__main__":
         if category.lower() == 'done':
             break
 
-        name = input("Enter the name: ")
+        name = input("Enter the name of item: ")
         if category.lower() == 'product':
             quantity = input("Enter the quantity: ")
             try:
